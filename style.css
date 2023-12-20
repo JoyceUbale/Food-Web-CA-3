@@ -133,3 +133,144 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+@media only screen and (max-width:900px){
+  /* navbar */
+.nav{
+    height: 300px;
+}
+#title{
+    margin-left:350px;
+    font-size: 200px;
+}
+#question{
+    margin-left: 400px;
+    margin-top: 260px;
+    position: absolute;
+    font-family: 'Kameron', serif;
+    font-size: 45px;
+    width: 800px;
+}
+#answer{
+    margin-left: 250px;
+    margin-top: 315px;
+    position: absolute;
+    font-family: 'Adamina', serif;
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+}
+#answer2{
+    margin-left: 260px;
+    margin-top: 345px;
+    position: absolute;
+    font-family: 'Adamina', serif;
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+}
+#search{
+    margin-left:526px;
+    margin-top: 410px;
+    padding: 15px;
+    width: 325px;
+    border-radius: 30px;
+    border: rgb(234, 128, 14) 4px solid;
+    font-weight: bolder;
+}
+.icon{
+    margin-left: 850px;
+    margin-top: -32px;
+}
+.fa{
+    border: none;
+}
+/* Speacial dish */
+.featured{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 185px;
+    width: 1000px;
+    margin-left: 255px;
+}
+#food-image{
+    width: 1441px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+#food-name{
+    width: 491px;
+    height: 131px;
+    text-align: center;
+    background-color: rgb(234, 128, 14);
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 44px;
+}
+/* searched */
+.search{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -2px;
+    width: 1000px;
+    margin-left: 255px;
+}
+#main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 100px;
+    margin-left: 200px;
+}
+
+#main img{
+    width: 261px;
+    height: 326px;
+    box-shadow: 10px 10px 5px rgb(64, 66, 67);
+}
+#main p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 175px;
+    margin-left: 56px;
+    background-color: rgb(234, 128, 14);
+    height: 55px;
+    /* padding-top: 20px; */
+}
+.upper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    /* margin-top: 300px; */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.box{
+    height: 418px;
+    width: 366px;
+    background-color: rgb(234, 128, 14);
+    position: relative;
+    padding-left: 150px;
+    /* text-align: center; */
+}
+#cross{
+    margin-left: 330px;
+    margin-top: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}  
+}
