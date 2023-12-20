@@ -104,7 +104,8 @@
     margin-left: 56px;
     background-color: rgb(234, 128, 14);
     height: 55px;
-    /* padding-top: 20px; */
+    display: flex;
+    align-items: center;
 }
 .upper{
     position: fixed;
@@ -179,8 +180,11 @@
     font-weight: bolder;
 }
 .icon{
-    margin-left: 850px;
-    margin-top: -32px;
+    margin-left: 830px;
+    margin-top: -52px;
+}
+.icon i{
+    font-size: 2rem;
 }
 .fa{
     border: none;
@@ -224,6 +228,11 @@
     width: 1000px;
     margin-left: 255px;
 }
+body input{
+    height: 30px;
+    width: 200px;
+    font-size: 1.5rem;
+}
 #main{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -243,14 +252,17 @@
     width: 175px;
     margin-left: 56px;
     background-color: rgb(234, 128, 14);
-    height: 55px;
-    /* padding-top: 20px; */
+    height: 133px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
 }
 .upper{
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 368vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -260,15 +272,15 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 .box{
-    height: 418px;
-    width: 366px;
+    height: 900px;
+    width: 566px;
     background-color: rgb(234, 128, 14);
     position: relative;
     padding-left: 150px;
-    /* text-align: center; */
+    font-size: 30px;
 }
 #cross{
-    margin-left: 330px;
+    margin-left: 530px;
     margin-top: 20px;
     font-weight: bolder;
     cursor: pointer;
